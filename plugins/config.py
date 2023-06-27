@@ -49,7 +49,7 @@ class Config(object):
 
     SESSION_NAME = os.environ.get("SESSION_NAME", "UploadLinkToFileBot")
 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -100"-1001756323593"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001756323593"))
 
     LOGGER = logging
 
